@@ -3,10 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4209AAB51BE4AE0BF88B87FD /* Pods_AppleDemoForSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC2553637CF57084A9DEDB2 /* Pods_AppleDemoForSwiftUI.framework */; };
+		608422FA2620293A00C8194F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608422F92620293A00C8194F /* AppDelegate.swift */; };
+		608422FD26202A9200C8194F /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608422FC26202A9200C8194F /* GoogleMapView.swift */; };
+		608423102620398D00C8194F /* GoogleMapAdapterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6084230F2620398D00C8194F /* GoogleMapAdapterView.swift */; };
+		6084231326203B1300C8194F /* GSMMapViewDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6084231226203B1300C8194F /* GSMMapViewDelegateWrapper.swift */; };
+		6084231726204DB600C8194F /* DirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6084231626204DB600C8194F /* DirectionView.swift */; };
+		6084231A26204E4D00C8194F /* MapViewNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6084231926204E4D00C8194F /* MapViewNew.swift */; };
+		6084232126205BDB00C8194F /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6084232026205BDB00C8194F /* Song.swift */; };
+		6084232526205DB700C8194F /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6084232426205DB700C8194F /* ImageCache.swift */; };
+		6084232826205F5900C8194F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6084232726205F5900C8194F /* ImageLoader.swift */; };
+		6084232B2620625800C8194F /* SongListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6084232A2620625800C8194F /* SongListViewModel.swift */; };
+		6084232E2620658200C8194F /* MusicMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6084232D2620658200C8194F /* MusicMainView.swift */; };
+		6084233626207FDB00C8194F /* SMSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6084233526207FDB00C8194F /* SMSView.swift */; };
 		60A3B54F261ED33D008CE4F6 /* AppleDemoForSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A3B54E261ED33D008CE4F6 /* AppleDemoForSwiftUIApp.swift */; };
 		60A3B551261ED33D008CE4F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A3B550261ED33D008CE4F6 /* ContentView.swift */; };
 		60A3B553261ED33E008CE4F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60A3B552261ED33E008CE4F6 /* Assets.xcassets */; };
@@ -34,6 +47,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EC2553637CF57084A9DEDB2 /* Pods_AppleDemoForSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleDemoForSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AABA3FA30FC9F80A4DCDFC /* Pods-AppleDemoForSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleDemoForSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-AppleDemoForSwiftUI/Pods-AppleDemoForSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		4531068664791F3B44A874A0 /* Pods-AppleDemoForSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleDemoForSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-AppleDemoForSwiftUI/Pods-AppleDemoForSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		608422F92620293A00C8194F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		608422FC26202A9200C8194F /* GoogleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
+		6084230F2620398D00C8194F /* GoogleMapAdapterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapAdapterView.swift; sourceTree = "<group>"; };
+		6084231226203B1300C8194F /* GSMMapViewDelegateWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSMMapViewDelegateWrapper.swift; sourceTree = "<group>"; };
+		6084231626204DB600C8194F /* DirectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionView.swift; sourceTree = "<group>"; };
+		6084231926204E4D00C8194F /* MapViewNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewNew.swift; sourceTree = "<group>"; };
+		6084232026205BDB00C8194F /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		6084232426205DB700C8194F /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		6084232726205F5900C8194F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		6084232A2620625800C8194F /* SongListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewModel.swift; sourceTree = "<group>"; };
+		6084232D2620658200C8194F /* MusicMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicMainView.swift; sourceTree = "<group>"; };
+		6084233526207FDB00C8194F /* SMSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSView.swift; sourceTree = "<group>"; };
 		60A3B54B261ED33D008CE4F6 /* AppleDemoForSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleDemoForSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A3B54E261ED33D008CE4F6 /* AppleDemoForSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDemoForSwiftUIApp.swift; sourceTree = "<group>"; };
 		60A3B550261ED33D008CE4F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,17 +95,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4209AAB51BE4AE0BF88B87FD /* Pods_AppleDemoForSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54149241130129A1FCC4C198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EC2553637CF57084A9DEDB2 /* Pods_AppleDemoForSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6084231F26205BBE00C8194F /* MusicSearch */ = {
+			isa = PBXGroup;
+			children = (
+				60842333262074BE00C8194F /* Helper */,
+				60842332262074A200C8194F /* View */,
+				608423312620747D00C8194F /* ViewModel */,
+				608423302620746E00C8194F /* Model */,
+			);
+			path = MusicSearch;
+			sourceTree = "<group>";
+		};
+		608423302620746E00C8194F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6084232026205BDB00C8194F /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		608423312620747D00C8194F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6084232A2620625800C8194F /* SongListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		60842332262074A200C8194F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6084232D2620658200C8194F /* MusicMainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60842333262074BE00C8194F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6084232426205DB700C8194F /* ImageCache.swift */,
+				6084232726205F5900C8194F /* ImageLoader.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		60A3B542261ED33D008CE4F6 = {
 			isa = PBXGroup;
 			children = (
 				60A3B54D261ED33D008CE4F6 /* AppleDemoForSwiftUI */,
 				60A3B54C261ED33D008CE4F6 /* Products */,
+				E1EB8DF964DEF3F30C13368E /* Pods */,
+				54149241130129A1FCC4C198 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +179,7 @@
 				60A3B569261EDB23008CE4F6 /* View */,
 				60A3B55E261ED347008CE4F6 /* MODEL */,
 				60A3B54E261ED33D008CE4F6 /* AppleDemoForSwiftUIApp.swift */,
+				608422F92620293A00C8194F /* AppDelegate.swift */,
 				60A3B550261ED33D008CE4F6 /* ContentView.swift */,
 				60A3B552261ED33E008CE4F6 /* Assets.xcassets */,
 				60A3B557261ED33E008CE4F6 /* Info.plist */,
@@ -125,12 +209,19 @@
 		60A3B569261EDB23008CE4F6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6084231F26205BBE00C8194F /* MusicSearch */,
 				60A3B5A0261F2064008CE4F6 /* WeekCalenderView.swift */,
 				60A3B58F261EFACE008CE4F6 /* Hikes */,
 				60A3B58E261EFAC0008CE4F6 /* Landmark */,
 				60A3B58D261EFAA9008CE4F6 /* Category */,
 				60A3B579261EE3C7008CE4F6 /* Helper */,
 				60A3B5A3261F316D008CE4F6 /* RadiantGradientDemo.swift */,
+				608422FC26202A9200C8194F /* GoogleMapView.swift */,
+				6084230F2620398D00C8194F /* GoogleMapAdapterView.swift */,
+				6084231226203B1300C8194F /* GSMMapViewDelegateWrapper.swift */,
+				6084231626204DB600C8194F /* DirectionView.swift */,
+				6084231926204E4D00C8194F /* MapViewNew.swift */,
+				6084233526207FDB00C8194F /* SMSView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,6 +276,15 @@
 			path = Hikes;
 			sourceTree = "<group>";
 		};
+		E1EB8DF964DEF3F30C13368E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33AABA3FA30FC9F80A4DCDFC /* Pods-AppleDemoForSwiftUI.debug.xcconfig */,
+				4531068664791F3B44A874A0 /* Pods-AppleDemoForSwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60A3B55A261ED33E008CE4F6 /* Build configuration list for PBXNativeTarget "AppleDemoForSwiftUI" */;
 			buildPhases = (
+				F6CECBF10E1DF3CAC1C523CD /* [CP] Check Pods Manifest.lock */,
 				60A3B547261ED33D008CE4F6 /* Sources */,
 				60A3B548261ED33D008CE4F6 /* Frameworks */,
 				60A3B549261ED33D008CE4F6 /* Resources */,
+				F11E183B34D4B8612E031871 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,30 +353,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F11E183B34D4B8612E031871 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleDemoForSwiftUI/Pods-AppleDemoForSwiftUI-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleDemoForSwiftUI/Pods-AppleDemoForSwiftUI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleDemoForSwiftUI/Pods-AppleDemoForSwiftUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6CECBF10E1DF3CAC1C523CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleDemoForSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60A3B547261ED33D008CE4F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6084232E2620658200C8194F /* MusicMainView.swift in Sources */,
 				60A3B551261ED33D008CE4F6 /* ContentView.swift in Sources */,
 				60A3B571261EDECF008CE4F6 /* CategoryHome.swift in Sources */,
 				60A3B567261ED75E008CE4F6 /* ModelData.swift in Sources */,
+				6084232826205F5900C8194F /* ImageLoader.swift in Sources */,
 				60A3B54F261ED33D008CE4F6 /* AppleDemoForSwiftUIApp.swift in Sources */,
+				608422FD26202A9200C8194F /* GoogleMapView.swift in Sources */,
+				6084231726204DB600C8194F /* DirectionView.swift in Sources */,
 				60A3B585261EEA09008CE4F6 /* LandmarkListView.swift in Sources */,
 				60A3B577261EE2DD008CE4F6 /* LandmarkDetail.swift in Sources */,
 				60A3B598261F0299008CE4F6 /* Hike.swift in Sources */,
+				6084232126205BDB00C8194F /* Song.swift in Sources */,
 				60A3B591261EFAF1008CE4F6 /* GraphCapsule.swift in Sources */,
 				60A3B5A1261F2064008CE4F6 /* WeekCalenderView.swift in Sources */,
 				60A3B59B261F0AA0008CE4F6 /* HikeDetail.swift in Sources */,
 				60A3B56B261EDB43008CE4F6 /* CategoryItem.swift in Sources */,
 				60A3B56E261EDD06008CE4F6 /* CategoryRow.swift in Sources */,
 				60A3B57B261EE3E5008CE4F6 /* MapView.swift in Sources */,
+				6084231326203B1300C8194F /* GSMMapViewDelegateWrapper.swift in Sources */,
 				60A3B57F261EE53C008CE4F6 /* CircleImage.swift in Sources */,
+				608423102620398D00C8194F /* GoogleMapAdapterView.swift in Sources */,
 				60A3B5A4261F316D008CE4F6 /* RadiantGradientDemo.swift in Sources */,
+				6084233626207FDB00C8194F /* SMSView.swift in Sources */,
 				60A3B59E261F0E49008CE4F6 /* HikeView.swift in Sources */,
+				6084231A26204E4D00C8194F /* MapViewNew.swift in Sources */,
 				60A3B574261EE048008CE4F6 /* LandmarkRow.swift in Sources */,
 				60A3B560261ED35E008CE4F6 /* Landmark.swift in Sources */,
+				608422FA2620293A00C8194F /* AppDelegate.swift in Sources */,
 				60A3B595261F0018008CE4F6 /* HikeGraph.swift in Sources */,
+				6084232B2620625800C8194F /* SongListViewModel.swift in Sources */,
+				6084232526205DB700C8194F /* ImageCache.swift in Sources */,
 				60A3B582261EE707008CE4F6 /* FavButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +556,7 @@
 		};
 		60A3B55B261ED33E008CE4F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AABA3FA30FC9F80A4DCDFC /* Pods-AppleDemoForSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -422,6 +579,7 @@
 		};
 		60A3B55C261ED33E008CE4F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4531068664791F3B44A874A0 /* Pods-AppleDemoForSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
